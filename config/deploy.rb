@@ -1,7 +1,7 @@
 default_run_options[:pty] = true
 
-set :application, "jap"
-set :repository,  "git@github.com:luckymancvp/star4vn.git"
+set :application, "boostvocab"
+set :repository,  "git@github.com:luckymancvp/boostvocab.git"
 set :scm, :git
 set :git_enable_submodules, 1
 
@@ -14,7 +14,7 @@ set :user, "ec2-user"
 # via the :deploy_to variable:
 # set :deploy_to, "/var/www/#{application}"
 set :deploy_to, "/var/www/html/app/#{application}"
-set :branch, "baseadmin_theme"
+set :branch, "master"
 
 # If you aren't using Subversion to manage your source code, specify
 # your SCM below:
