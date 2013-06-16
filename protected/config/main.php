@@ -12,7 +12,7 @@ return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Japanese Dependency',
 
-    'defaultController' => 'set',
+    'defaultController' => 'home',
 
 	// preloading 'log' component
 	'preload'=>array(
@@ -64,19 +64,16 @@ return array(
 		'log'=>array(
 			'class'=>'CLogRouter',
             'routes' => array(
-                // ?????????????????
                 array(
                     'class' => 'CFileLogRoute',
                     'levels' => 'debug, info',
                     'logFile' => 'debug.log',
                 ),
-                // ????????????????
                 array(
                     'class' => 'CFileLogRoute',
                     'levels' => 'error',
                     'logFile' => 'error.log',
                 ),
-                // ???????????????
                 array(
                     'class' => 'CFileLogRoute',
                     'logFile' => 'application.log',
@@ -94,5 +91,5 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'luckymancvp@gmail.com',
 	),
-    'theme'=>'baseadmin',
+    'theme'=>'empire',
 );

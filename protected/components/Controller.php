@@ -21,7 +21,7 @@ class Controller extends CController
 	 */
 	public $breadcrumbs=array();
 
-    public function filters()
+    /*public function filters()
     {
         return array(
             'accessControl', // perform access control for CRUD operations　(CRUD操作のためのアクセス制御を実行します。)
@@ -41,5 +41,5 @@ class Controller extends CController
                 'users'=>array('*'),
             ),
         );
-    }
+    }*/
 }

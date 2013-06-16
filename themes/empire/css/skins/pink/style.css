@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+h3 span, footer a:hover, footer a:hover i { color:#d863a5; }
+
+/* Text Color */
+a, .post-details h3 a:hover, a.read-more:hover, .list-style li a:hover, .list-style li a:hover i, .side-content .news-entry a:hover, .widget_tag_cloud li a:hover, .pagination a:hover, .read-more:hover .icon-angle-right, .breadcrumb a:hover, .tagcloud li a:hover, .comment-meta .commentmetadata a:hover, .comment .comment-meta  h6 a:hover, .post-details h2 a:hover, .post-details ul li a:hover, #secondary .widget_recent_posts h5 a:hover, #secondary .widget_categories ul li a:hover, .widget_testimonials ul li p a:hover, .portfolio-container h4 a:hover, .toggle-accordion a:hover, .toggle a:hover, .toggle.active, .toggle.active a, .toggle-accordion.active, .toggle-accordion.active a, footer ul.footer-links li a:hover,  ul.theme-color li [class^="icon-"], .services:hover .icon-lightbulb, .services:hover .icon-resize-full, .services:hover .icon-magic, .comment-author .reply:hover, .custom-tabs-frame li a.current, .custom-tabs-frame li a.current [class^="icon-"], .theme-btn.button-arrow .icon-angle-right { color:#d863a5; }
+
+/* background colors */
+#page-nav ul li.current_page_item, #page-nav ul li:hover, #page-nav ul li ul.sub-menu li:hover, .tag li a:hover, .portfolio-container li:hover h4.title a, .related-works.three-fourth li:hover h4 a, .portfolio-container li a:hover .thick-border, input[type="button"], input[type="submit"], input[type="reset"], button, .button, .color, .sorting-container li a.active, .sorting-container li a:hover, .sorting-container li a.active, .sorting-container li a:hover, .side-nav li a:hover, .sorting-container li a.active, .sorting-container li a:hover, .faq h5.toggle-accordion.active:before, .toggle-frame h5.toggle-accordion.active, .toggle-frame h5.toggle.active, .ls-layer .button-text2 a, .ls-layer .button-text a, .ls-layer h4, .ui-widget-content, .portfolio-thumb .image-overlay a span, ul.tabs-frame li a.current, ul.tabs-vertical-frame li a.current, .widget_testimonials .carousel-arrows .icon-chevron-left:hover, #secondary .widget_testimonials .carousel-arrows .icon-chevron-right:hover, .portfolio-slider-container .bx-controls-direction a, .widget_testimonials .carousel-arrows .icon-chevron-left:hover, .widget_testimonials .carousel-arrows .icon-chevron-right:hover { background-color:#E67FB9; }
+.sorting-container li:hover a:before, .sorting-container li a.active:before { background:#E67FB9; }
+
+.sorting-container li a.active, .sorting-container li a:hover, .portfolio-container li h4.title a:hover, .related-works.three-fourth li h4.title a:hover, .portfolio-container li:hover h4.title a, .related-works.three-fourth li:hover h4.title a, .side-nav li a:hover, ul.tabs-frame li a.current, ul.tabs-vertical-frame li a.current, .toggle-frame h5.toggle-accordion.active a, .toggle-frame h5.toggle.active a, .toggle-frame h5.toggle-accordion.active a:hover, .toggle-frame h5.toggle-accordion.active a, .toggle-frame h5.toggle.active a, .toggle-frame h5.toggle-accordion.active:before, .toggle-frame h5.toggle.active:before, .toggle-frame h5.toggle-accordion.active:hover, .toggle-frame h5.toggle.active:hover { color:#fff; text-shadow:1px 1px 0px #cb4592; }
+
+
+
+/* border colors */
+header { border-top-color:#E67FB9; }
+.portfolio-container li a:hover .thick-border, .widget_flickr ul li:hover, .portfolio-container li .portfolio-thumb:hover .thick-border, #page-nav ul li ul.sub-menu li:hover, .container .intro div img { border-color:#d55fa2; }
+
+/* BUTTON STYLE */
+.theme-btn { 
+	background-color:#e67fb9;
+	background-image: linear-gradient(bottom, #e67fb9 0%, #ec9fcb 100%);
+	background-image: -o-linear-gradient(bottom, #e67fb9 0%, #ec9fcb 100%);
+	background-image: -moz-linear-gradient(bottom, #e67fb9 0%, #ec9fcb 100%);
+	background-image: -webkit-linear-gradient(bottom, #e67fb9 0%, #ec9fcb 100%);
+	background-image: -ms-linear-gradient(bottom, #e67fb9 0%, #ec9fcb 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, #e67fb9)),
+	color-stop(1, #ec9fcb))
+	); box-shadow:0px 5px 0px #c2468c; }
+.theme-btn:hover { 
+	background-color:#ec9fcb;
+	background-image: linear-gradient(bottom, #ec9fcb 0%, #e67fb9 100%);
+	background-image: -o-linear-gradient(bottom, #ec9fcb 0%, #e67fb9 100%);
+	background-image: -moz-linear-gradient(bottom, #ec9fcb 0%, #e67fb9 100%);
+	background-image: -webkit-linear-gradient(bottom, #ec9fcb 0%, #e67fb9 100%);
+	background-image: -ms-linear-gradient(bottom, #ec9fcb 0%, #e67fb9 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, #ec9fcb)),
+	color-stop(1, #e67fb9))
+	); box-shadow:0px 5px 0px #c2468c; }
+.theme-btn:active { box-shadow:0 2px 0px #c2468c; -moz-box-shadow:0 2px 0px #c2468c; -webkit-box-shadow:0 2px 0px #c2468c; -o-box-shadow:0 2px 0px #c2468c; }
+.theme-btn, .theme-btn:hover, .theme-btn.large.button-arrow { color:#ffffff; text-shadow:1px 1px 0px #cb4592; }
+.theme-btn .icon-angle-right { background-color: #f3f3f3; box-shadow:1px 1px 0px #c2468c; color:#b8353e; }
+.button-arrow.button-arrow:before { background: #f8b3da; border-right-color: #c35794; }
+.theme-btn.button-arrow .icon-angle-right { background-color: #F3F3F3; box-shadow: 1px 1px 0 #c2468c; }
+
+.pagination ul li a:hover, .pagination ul li.active-page, .pagination a .skip-page:hover { border-color:#d55fa2; }
+
+.sorting-container li a.active, .sorting-container li a:hover { border-top-color:#E67FB9 !important; border-bottom-color:#bd538f !important; }
+.sorting-container li:first-child a.active { background:#E67FB9 !important; }
+
+/*ACCORDION*/
+ul.tabs-frame li a.current, .tabs-vertical-frame-content, .tabs-frame-content, .toggle-frame .toggle-content, ul.tabs-vertical-frame li a.current { border: 1px solid #d55fa2; }
+.toggle-frame .toggle-accordion.active:after, .tabs-frame-content:before { border-left: 1px solid #d55fa2; border-right: 1px solid #d55fa2; }
+ul.tabs-vertical-frame li.current a span { background:url(images/vertical-tabs-active.png) no-repeat scroll 0 0 transparent; }
+
+/* portfolio */
+.portfolio-slider-container .bx-controls a.bx-next { background-image: url(images/arrow-next.png); }
+.portfolio-slider-container .bx-controls a.bx-prev { background-image: url(images/arrow-prev.png); }
