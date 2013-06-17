@@ -33,6 +33,8 @@
     <link rel="stylesheet" type="text/css" href="<?php echo cssThemeUrl('ie8-and-down.css'); ?>" />
     <![endif]-->
 
+    <link id="shortcodes-css" href="<?php echo cssThemeUrl('global.css'); ?>" rel="stylesheet" type="text/css">
+
     <!-- gradients in ie9 and above -->
 
     <!--[if gte IE 9]>

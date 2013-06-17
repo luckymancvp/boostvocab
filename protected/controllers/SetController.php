@@ -20,4 +20,14 @@ class SetController extends Controller
     {
         $this->render('create');
     }
+
+    /**
+     * Render create set page by type list
+     * @author luckymancvp
+     * @date 20130616
+     */
+    public function actionList()
+    {
+        $this->render('list');
+    }
 }
